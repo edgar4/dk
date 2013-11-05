@@ -1,0 +1,216 @@
+.content {
+	background-color: #F1F1F1;
+}
+table >icon-home{
+	font-size:large;
+}
+.white{
+	color:white;
+}
+.blue{
+	background:#1a4e95;
+	height:250px;
+	border:10px solid #fff;
+	border-radius:5px;
+	color:#fff;
+	
+}
+.yellow{
+	background:#4fc4f6;
+	height:250px;
+	border:10px solid #fff;
+	border-radius:5px;
+}
+.emerand{
+	background:#fcb150;
+	height:250px;
+	border:10px solid #fff;
+	border-radius:5px;
+}
+.red{
+	background:#cc324b;
+	height:250px;
+	border:10px solid #fff;
+	border-radius:5px;
+}
+
+
+#footer {
+	color: #CCCCCC;
+	background-color: #333333;
+}
+.black{
+	background:#000;
+}
+#items-carousel {
+	height: 310px;
+}
+.error{
+	font-size:12px;
+	font-style:italic;
+	color:red;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+.th {
+	width: 100%;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+/* Zebra striping */
+tr:nth-of-type(odd) {
+	background: #eee;
+}
+th {
+	background: #333;
+	color: white;
+	font-weight: bold;
+	font-size: 10px;
+}
+td, th {
+	padding: 6px;
+	border: 1px solid #ccc;
+	text-align: left;
+	font-size: 10px;
+}
+#feedback {
+	font-size: 1.4em;
+}
+#selectable .ui-selecting {
+	background: #FECA40;
+}
+#selectable .ui-selected {
+	background: #ffb400;
+	color: white;
+}
+#selectable {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+#selectable li {
+	margin: 3px;
+	padding: 0.4em;
+	height: 18px;
+}
+#selectable li {
+	margin: 3px;
+	padding: 0.4em;
+	height: 18px;
+}
+.list-detail {
+	
+}
+.list-header {
+	font-size: 18px;
+	background:#25bc85;
+	text-align:center;
+	color:#fff;
+}
+.budget{
+	background:#f45460;
+	color:white;
+}
+.list-header2 {
+	font-size: 18px;
+	background:#35aadc;
+	text-align:center;
+	color:#fff;
+}
+.list-header3 {
+	font-size: 18px;
+	background:#cc324b;
+	text-align:center;
+	color:#fff;
+}
+.list-header3 {
+	font-size: 18px;
+	background:#1a4e95;
+	text-align:center;
+	color:#fff;
+}
+
+
+.list-detail ul {
+	font-size: 18px;
+}
+
+.list-detail ul li {
+	font-size: 14px;
+	border: 1px solid #f4f4f4;
+	margin: 3px;
+	padding: 0.4em;
+	height: 18px;
+	list-style: none;
+}
+ @media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+/* Force table to not be like tables anymore */
+table, thead, tbody, th, td, tr {
+	display: block;
+}
+/* Hide table headers (but not display: none;, for accessibility) */
+thead tr {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+tr {
+	border: 1px solid #ccc;
+}
+td {
+	/* Behave  like a "row" */
+	border: none;
+	border-bottom: 1px solid #eee;
+	position: relative;
+	padding-left: 50%;
+}
+td:before {
+	/* Now like a table header */
+	position: absolute;
+	/* Top/left values mimic padding */
+	top: 6px;
+	left: 6px;
+	width: 45%;
+	padding-right: 10px;
+	white-space: nowrap;
+}
+/*
+	Label the data
+	
+td:nth-of-type(1):before {
+	content: "First Name";
+}
+td:nth-of-type(2):before {
+	content: "Last Name";
+}
+td:nth-of-type(3):before {
+	content: "Job Title";
+}
+td:nth-of-type(4):before {
+	content: "Favorite Color";
+}
+td:nth-of-type(5):before {
+	content: "Wars of Trek?";
+}
+td:nth-of-type(6):before {
+	content: "Porn Name";
+}
+td:nth-of-type(7):before {
+	content: "Date of Birth";
+}
+td:nth-of-type(8):before {
+	content: "Dream Vacation City";
+}
+td:nth-of-type(9):before {
+	content: "GPA";
+}
+td:nth-of-type(10):before {
+	content: "Arbitrary Data";
+}*/
+}
+
